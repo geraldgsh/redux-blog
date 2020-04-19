@@ -1,5 +1,5 @@
 // Import all actions
-import * as actions from "../actions/postsActions";
+import * as actions from '../actions/postsActions';
 
 export const initialState = {
   posts: [],

@@ -1,14 +1,15 @@
-import React from "react";
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
-} from "react-router-dom";
+} from 'react-router-dom';
 
-import DashboardPage from "./pages/DashboardPage";
-import PostsPage from "./pages/PostsPage";
+import DashboardPage from './pages/DashboardPage';
+import PostsPage from './pages/PostsPage';
 
+// eslint-disable-next-line arrow-body-style
 const App = () => {
   return (
     <Router>
